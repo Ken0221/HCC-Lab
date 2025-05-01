@@ -4,6 +4,7 @@ BCI_Lab/
 
 # for local use
 .vscode/
+.cursor/
 .DS_Store
 __pycache__/
 
