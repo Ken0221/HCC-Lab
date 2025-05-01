@@ -1,0 +1,6 @@
+pylsl==1.16.1
+joblib
+mne
+scikit_learn
+scipy
+pygame

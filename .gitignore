@@ -1,6 +1,5 @@
 # for this project only
 EEG_data/
-BCI_Lab/
 
 # for local use
 .vscode/

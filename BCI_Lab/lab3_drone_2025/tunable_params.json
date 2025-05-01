@@ -1,0 +1,16 @@
+{
+  "up_threshold": 5,
+  "down_threshold": 3,
+  "sw_params": 0.9,
+  "land_params": -3,
+  "forward_params": 6,
+  "command": {
+    "up": "up 30",
+    "down": "down 30",
+    "left": "ccw 90",
+    "right": "cw 90",
+    "forward": "forward 200",
+    "land": "land",
+    "no_action": "cw 0"
+  }
+}
