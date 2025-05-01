@@ -1,5 +1,5 @@
 # for this project only
-EEG_data/
+# EEG_data/
 
 # for local use
 .vscode/
@@ -9,8 +9,6 @@ __pycache__/
 
 # image
 # *.png
-*.jpg
-*.jpeg
 
 # execute file
 *.exe
@@ -19,5 +17,6 @@ __pycache__/
 
 # data
 *.csv
-
+*.jpg
+*.jpeg
 
