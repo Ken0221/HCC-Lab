@@ -1,0 +1,23 @@
+# for this project only
+EEG_data/
+BCI_Lab/
+
+# for local use
+.vscode/
+.DS_Store
+__pycache__/
+
+# image
+# *.png
+*.jpg
+*.jpeg
+
+# execute file
+*.exe
+*.out
+*.o
+
+# data
+*.csv
+
+
