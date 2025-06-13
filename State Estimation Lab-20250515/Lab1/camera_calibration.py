@@ -19,12 +19,18 @@ objpoints = []  # 3d point in real world space
 imgpoints = []  # 2d points in image plane.
 
 # Load images
-images_folder = "chessboard"
+images_folder = "./chessboard"
 images_list = os.listdir(images_folder)
 
 for fname in images_list:
 
     img_path = os.path.join(images_folder, fname)
+    ###
+    print(f"Processing {img_path}")
+    if not fname.lower().endswith(('.jpg', '.jpeg', '.png', '.bmp')):
+        print(f"略過非圖片檔案: {fname}")
+        continue
+    ###
     img = cv2.imread(img_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
