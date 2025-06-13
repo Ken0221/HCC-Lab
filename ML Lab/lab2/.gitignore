@@ -1,0 +1,17 @@
+# dataset
+dataset
+*.zip
+
+# python
+lab2env
+.python-version
+__pycache__
+
+# model
+checkpoints
+pretrain
+
+# log
+logs
+
+# !example/*
